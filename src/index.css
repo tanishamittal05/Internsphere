@@ -1,0 +1,16 @@
+/* Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make sure the html and body take full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply background using Tailwind's @apply inside a selector */
+body {
+  @apply bg-gray-100; /* change to bg-blue-50, bg-white, etc. */
+}
